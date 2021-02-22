@@ -13,5 +13,5 @@ setup(name='sharepackage',
       test_suite='tests',
       # include_package_data: to install data from MANIFEST.in
       include_package_data=True,
-      scripts=['scripts/sharepackage-run'],
+      scripts=['scripts/sharepackage-run','scripts/sharepackage-tryme'],
       zip_safe=False)
